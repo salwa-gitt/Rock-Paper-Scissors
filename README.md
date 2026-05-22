@@ -1,104 +1,90 @@
-# Rock Paper Scissors CLI Game (Python)
+# ✂️ Rock Paper Scissors Game (Python)
 
-A simple but interactive command-line Rock Paper Scissors game built in Python with score tracking, replay system, and overall winner calculation.
+A simple command-line Rock Paper Scissors game built in Python where the user plays against the computer. The game tracks scores and determines the overall winner after multiple rounds.
 
-## Features
+---
 
-- Classic Rock, Paper, Scissors gameplay
-- Emoji-based visual feedback 🪨📃✂️
-- Score tracking system (User vs Computer vs Tie)
-- Best-of-3 match system (first to 2 wins)
-- Replay option after each game session
-- Final match summary with overall winner
+## 🚀 Features
 
-## Tech Stack
+- 🎮 Play against computer AI (random choice)
+- 🪨 Rock, 📄 Paper, ✂️ Scissors logic system
+- 📊 Score tracking (Win / Loss / Tie)
+- 🔁 Replay system after each match
+- 🧠 Best-of-3 style gameplay
+- ⚡ Simple and interactive CLI experience
 
-- Python 3
-- Random module (computer AI simulation)
+---
 
-## Project Structure
+## 🛠️ Tech Stack
 
-```bash
-├── main.py
-└── README.md
-```
+- Python
+- Random module
+- Conditional logic
+- Loops and functions
 
-## How It Works
+---
 
-1. User selects:
-   - Rock (r)
-   - Paper (p)
-   - Scissors (s)
+## 🧠 How It Works
 
+1. User selects rock, paper, or scissors
 2. Computer randomly selects its move
+3. Winner is determined based on game rules
+4. Score is updated after each round
+5. Game continues until a player reaches 2 wins
+6. Final result is displayed
 
-3. Game logic determines winner:
-   - Rock beats Scissors
-   - Scissors beats Paper
-   - Paper beats Rock
+---
 
-4. Scores are updated in real-time
+## 📌 Game Rules
 
-5. First to reach 2 wins ends the match
+- Rock beats Scissors
+- Scissors beats Paper
+- Paper beats Rock
 
-6. User can choose to replay or exit
+---
 
-## Example Gameplay
+## 💡 Example Usage
 
 ```
 Rock, Paper, or scissors? (r/p/s): r
 You chose 🪨
 Computer chose ✂️
 You Win!
-
-Rock, Paper, or scissors? (r/p/s): p
-You chose 📃
-Computer chose 🪨
-You Win!
-
-YOU WIN: 2-0
 ```
 
-## Key Functions
+---
 
-### `get_user_choice()`
-Handles and validates user input.
+## 📚 Concepts Used
 
-### `display_choices(user_choice, computer_choice)`
-Displays both player and computer choices using emojis.
+- Random number generation
+- Functions
+- Global variables
+- Game loop logic
+- Conditional statements
+- User input handling
 
-### `determine_winner()`
-Implements game logic and updates scores.
+---
 
-### `play_game()`
-Main game loop controlling rounds and win conditions.
+## 🔮 Future Improvements
 
-### `ask_to_play_again()`
-Handles replay system and final results display.
+- Add GUI version (Tkinter / Web)
+- Add difficulty levels (smart AI opponent)
+- Add animations / countdown system
+- Multiplayer mode
+- Score saving system
 
-## Concepts Demonstrated
+---
 
-- Conditional logic
-- Loops and game flow control
-- Global state management
-- Input validation
-- Randomized decision-making
-- CLI game design
-- State-based scoring system
+## 🎯 Learning Outcome
 
-## Future Improvements
+This project demonstrates:
+- Basic game logic design
+- Function-based program structure
+- Score tracking systems
+- Interactive CLI development
 
-- Add GUI version (Tkinter or web-based UI)
-- Add difficulty levels (smart AI instead of random)
-- Add animations or delays for better UX
-- Track win history across sessions
-- Add multiplayer mode
-- Convert into web game using Flask or React
+---
 
-## Learning Outcome
-
-This project demonstrates foundational game development logic, state management, and interactive CLI design using Python.
-
-## Author
+## 👨‍💻 Author
 
 Built by Salwa
